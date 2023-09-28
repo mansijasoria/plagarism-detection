@@ -108,7 +108,7 @@ const Intro = () => {
         <main>
           <form
           onClick={() => document.querySelector(".input-field").click() }>
-            <input type="file" accept='image/*' className="input-field" hidden
+            <input type="file" accept='.doc,.pdf,.txt' className="input-field" hidden
             onChange={({ target:{files}}) => {
               files[0] && setFileName(files[0].name)
               if(files){
