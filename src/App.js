@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
 import Intro from "./components/Intro/Intro";
-import Services from "./components/Services/Services";
 import "./App.css";
 import Aboutus from "./components/Aboutus/Aboutus";
 import Works from "./components/Works/Works";
@@ -9,6 +8,7 @@ import Accordian from "./components/Faq/Accordian";
 import Reviews from "./components/Reviews/Reviews";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Services_new from "./components/Services/Services_new";
 
 import { useContext } from "react";
 import { themeContext } from "./Context";
@@ -25,7 +25,8 @@ function App() {
     >
       <Navbar />
       <Intro />
-      <Services />
+      {/* <Services /> */}
+      <Services_new />
       <Aboutus />
       <Works />
       {/* <Faq /> */}
@@ -37,4 +38,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;
